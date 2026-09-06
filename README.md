@@ -19,3 +19,5 @@ https://github.com/user-attachments/assets/3d824e42-288d-4b7f-b968-f804a3e78294
 <img width="1600" height="1201" alt="image" src="https://github.com/user-attachments/assets/56178245-726f-4275-9367-11fb97d3c92b" />
 My very first *major* project with my ESP32. an 3DOF Robotic arm.
 I used my Elegoo Centauri Carbon 3D printer (with Elegoo Rapid PLA+ as the filament), an Freenove ESP32 Wrover Cam (without an camera, the camera broke), 3 Muizei 20kg*cm 180 degree digital servos, an Elegoo battery (from the Elegoo Smart Car V2.0 kit), 3 (one for each motor) LM2598 step-down converters, and potenciometers were used for controlling the motors. 
+3D models made by Me in Autodesk Fusion (Riga Technical University thankfully gives a license). 
+Slicing Software used: Elegoo Slicer.
