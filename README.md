@@ -1,6 +1,14 @@
 
 
 
+# Sheep Simulator. 
+## The original Idea: Simulate Evolution.
+The idea was that evolution fundementally requires just 4 things: variation between siblings (mutation), inheritance, conflict over shared / limited resources, time. the moment all 4 are true, evolution is not just *possible*, its MANDATORY. 
+Thus, evolution is an emergent thing, not an thing of itself. 
+
+### For the full code and logic of how the simulation works, please visit the S-3 folder above. 
+### The Code was re-written by Google Antigravity for clarity as well as performance and documentation, as well as for efficiency. Gemini did NOT come up with the idea or concept. I am able to maintain the code without AI. 
+Evolution was never in entirety introduced into the project (you are free to do it yourself if you wish to finish it), but the simple reason being that the simulation already reached its goal. The idea was to reach emergent behavior, but I over-estimated how simple the rules need to be for emergent behavior (ironic given I had already been very much aware of Conway's game of life) and thus the mutation part was never implemented for the specific reason that the simulation was already interesting even without it. 
 
 <img width="865" height="755" alt="Screenshot 2026-08-03 195922(1)" src="https://github.com/user-attachments/assets/e3387f9a-e498-4429-a820-077210b45a3b" />
 (the image is from an earlier version of the sheep simulator, thus the bottom display is NOT how it currently works)
