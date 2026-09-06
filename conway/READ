@@ -1,0 +1,4 @@
+Description:
+
+
+This is an implementation of Conway's Game of Life, origianlly made obviously by John Conway himself. I dont own the rights or the idea of the algorithm, this is only my implementation of it to Godot, using the rules of this celular automata.
