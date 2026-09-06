@@ -5,7 +5,7 @@
 ## The original Idea: Simulate Evolution.
 The idea was that evolution fundementally requires just 4 things: variation between siblings (mutation), inheritance, conflict over shared / limited resources, time. the moment all 4 are true, evolution is not just *possible*, its MANDATORY. 
 Thus, evolution is an emergent thing, not an thing of itself. 
-The full simulation was made in Godot. 
+The full project was made in Godot. The code was written in Godot's own GDScript. 
 
 ### For the full code and logic of how the simulation works, please visit the S-3 folder above. 
 > ## The Code was re-written by Google Antigravity for clarity, performance, as well as to significantly speed up development.  Gemini did NOT come up with the idea or concept. I am fully able to maintain the code without AI. 
