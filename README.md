@@ -19,7 +19,8 @@ interestingly the sheep simulator displays 3 emergent behavior-like patterns ins
 3. The net change of grass amount (i.e. - the amount of grass growing/spreading minus the amount of grass eaten by sheep) follows an normal distribution-like curve IF there are no sheep / if the sheep aren't able to sufficiently impact data and grass is left to simply spread itself, populating the field. 
 4. Due to grass having distinct phases of growth and spreading, grass seems to form visible [Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) patterns. because of the definition of an Voronoi Diagram, interestingly it isn't just a Voronoi-like but instead a pure Voronoi diagram. 
 
-
+#Robotic Arm with ESP32
+## Project #1 in align with my Degree. 
 
 https://github.com/user-attachments/assets/3d824e42-288d-4b7f-b968-f804a3e78294
 
