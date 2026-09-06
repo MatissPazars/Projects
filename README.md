@@ -36,7 +36,8 @@ Used:
 5. Elegoo battery (from the Elegoo Smart Car V2.0 kit)
 6. 3 (one for each motor) LM2598 step-down converters
 7. Potentiometers for controlling the motors.
-8. Obviously also wires and a breadboard. 
+8. Obviously also wires and a breadboard.
+
 3D models made by Me in Autodesk Fusion (Riga Technical University thankfully gives a license). 
 Slicing Software used: Elegoo Slicer.
 
