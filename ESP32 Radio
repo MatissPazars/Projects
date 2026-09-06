@@ -1,0 +1,43 @@
+#include <Wire.h>
+
+#define TEA5767_I2C_ADDRESS 0x60
+
+
+float targetFrequency = 107.2; 
+
+void setFrequency(float frequency) {
+  // Convert frequency to 14-bit PLL value for TEA5767
+  // Formula: Intermediate Frequency (IF) = 225 kHz, Reference Clock = 32.768 kHz
+  unsigned int pll = (unsigned int)(((frequency + 0.225) * 1000000) / 8192);
+
+  byte byte1 = (pll >> 8) & 0x3F; // Upper 6 bits of PLL
+  byte byte2 = pll & 0xFF;        // Lower 8 bits of PLL
+  byte byte3 = 0xB0;             // Search stop level medium, High side injection
+  byte byte4 = 0x10;             // 32.768 kHz clock configuration
+  byte byte5 = 0x00;             // 64-108 MHz band limits
+
+  Wire.beginTransmission(TEA5767_I2C_ADDRESS);
+  Wire.write(byte1);
+  Wire.write(byte2);
+  Wire.write(byte3);
+  Wire.write(byte4);
+  Wire.write(byte5);
+  Wire.endTransmission();
+}
+
+void setup() {
+  Serial.begin(115200);
+  
+  // Initialize ESP32 hardware I2C on default GPIO 21 (SDA) and GPIO 22 (SCL)
+  Wire.begin(21, 22);
+
+  Serial.print("Tuning to FM Station: ");
+  Serial.print(targetFrequency);
+  Serial.println(" MHz");
+
+  setFrequency(targetFrequency);
+}
+
+void loop() {
+  
+}
