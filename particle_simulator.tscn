@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8k12p7x6q9mn"]
+
+[ext_resource type="Script" path="res://ParticleSimulator.gd" id="1_sim"]
+
+[node name="ParticleSimulator" type="Node2D"]
+script = ExtResource("1_sim")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="PanelContainer" type="PanelContainer" parent="HUD"]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 680.0
+offset_bottom = 130.0
+
+[node name="MarginContainer" type="MarginContainer" parent="HUD/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="StatusLabel" type="Label" parent="HUD/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Ticks: 0 | Particles: 0"
+
+[node name="HSeparator" type="HSeparator" parent="HUD/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="InspectorLabel" type="Label" parent="HUD/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Click a particle to inspect"
