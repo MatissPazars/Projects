@@ -39,7 +39,7 @@ Video #1: Robotic arm test 01.
 Used: 
 1. Elegoo Centauri Carbon 3D printer (with Elegoo Rapid PLA+ as the filament)
 2. Freenove ESP32 Wrover Cam (without an camera, the camera broke)
-3. 3 Muizei 20kg*cm 180 degree digital servos
+3. 3 Muizei 15kg*cm 180 degree digital servos
 5. Elegoo battery (from the Elegoo Smart Car V2.0 kit)
 6. 3 (one for each motor) LM2596 step-down converters
 7. Potentiometers for controlling the motors.
