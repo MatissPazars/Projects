@@ -30,6 +30,7 @@ To better understand the logic of the work, it is advisable to atleast get gener
 ## Project #1 in align with my Degree. 
 
 https://github.com/user-attachments/assets/3d824e42-288d-4b7f-b968-f804a3e78294
+Video #1: Robotic arm test 01. 
 
 <img width="1600" height="1201" alt="image" src="https://github.com/user-attachments/assets/6e50d006-fc0e-4912-a5e6-ed5a6e3df77a" />
 <img width="1600" height="1201" alt="image" src="https://github.com/user-attachments/assets/56178245-726f-4275-9367-11fb97d3c92b" />
