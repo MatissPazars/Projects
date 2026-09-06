@@ -7,7 +7,7 @@ The idea was that evolution fundementally requires just 4 things: variation betw
 Thus, evolution is an emergent thing, not an thing of itself. 
 
 ### For the full code and logic of how the simulation works, please visit the S-3 folder above. 
-### The Code was re-written by Google Antigravity for clarity, performance, as well as to significantly speed up development.  Gemini did NOT come up with the idea or concept. I am fully able to maintain the code without AI. 
+> ## The Code was re-written by Google Antigravity for clarity, performance, as well as to significantly speed up development.  Gemini did NOT come up with the idea or concept. I am fully able to maintain the code without AI. 
 Evolution was never in entirety introduced into the project (you are free to do it yourself if you wish to finish it), but the simple reason being that the simulation already reached its goal. The idea was to reach emergent behavior, but I over-estimated how simple the rules need to be for emergent behavior (ironic given I had already been very much aware of Conway's game of life) and thus the mutation part was never implemented for the specific reason that the simulation was already interesting even without it. 
 
 <img width="865" height="755" alt="Screenshot 2026-08-03 195922(1)" src="https://github.com/user-attachments/assets/e3387f9a-e498-4429-a820-077210b45a3b" />
@@ -40,4 +40,4 @@ Used:
 3D models made by Me in Autodesk Fusion (Riga Technical University thankfully gives a license). 
 Slicing Software used: Elegoo Slicer.
 
-IMPORTANT NOTICE: if you intend to copy, the LM2598 needs its voltage to be adjusted, please use an multi-meter to correctly ensure the LM2598 is outputting the correct voltage for the servo (I aimed for roughly 5.5V per module). un-adjusted, the module can potentially damage other components by providing too high voltage. Turn counter-clockwise to reduce voltage (dial the screw on top of the blue rectangle with a screwdriver) and clockwise to increase. measure voltage of-course with a multi-meter. Because of how amp-hungry the servo motors are and because of how amps and volts work in parallel (volts are constant, amps stack) the battery may not last long on a single charge. 
+> ### IMPORTANT NOTICE: if you intend to copy, the LM2598 needs its voltage to be adjusted, please use an multi-meter to correctly ensure the LM2598 is outputting the correct voltage for the servo (I aimed for roughly 5.5V per module). un-adjusted, the module can potentially damage other components by providing too high voltage. Turn counter-clockwise to reduce voltage (dial the screw on top of the blue rectangle with a screwdriver) and clockwise to increase. measure voltage of-course with a multi-meter. Because of how amp-hungry the servo motors are and because of how amps and volts work in parallel (volts are constant, amps stack) the battery may not last long on a single charge. 
