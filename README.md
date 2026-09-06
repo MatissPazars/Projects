@@ -41,11 +41,11 @@ Used:
 2. Freenove ESP32 Wrover Cam (without an camera, the camera broke)
 3. 3 Muizei 20kg*cm 180 degree digital servos
 5. Elegoo battery (from the Elegoo Smart Car V2.0 kit)
-6. 3 (one for each motor) LM2598 step-down converters
+6. 3 (one for each motor) LM2596 step-down converters
 7. Potentiometers for controlling the motors.
 8. Obviously also wires and a breadboard.
 
 3D models made by Me in Autodesk Fusion (Riga Technical University thankfully gives a license). 
 Slicing Software used: Elegoo Slicer.
 
-> ### IMPORTANT NOTICE: if you intend to copy, the LM2598 needs its voltage to be adjusted, please use an multi-meter to correctly ensure the LM2598 is outputting the correct voltage for the servo (I aimed for roughly 5.5V per module). un-adjusted, the module can potentially damage other components by providing too high voltage. Turn counter-clockwise to reduce voltage (dial the screw on top of the blue rectangle with a screwdriver) and clockwise to increase. measure voltage of-course with a multi-meter. Because of how amp-hungry the servo motors are and because of how amps and volts work in parallel (volts are constant, amps stack) the battery may not last long on a single charge. 
+> ### IMPORTANT NOTICE: if you intend to copy, the LM2596 needs its voltage to be adjusted, please use an multi-meter to correctly ensure the LM2598 is outputting the correct voltage for the servo (I aimed for roughly 5.5V per module). un-adjusted, the module can potentially damage other components by providing too high voltage. Turn counter-clockwise to reduce voltage (dial the screw on top of the blue rectangle with a screwdriver) and clockwise to increase. measure voltage of-course with a multi-meter. Because of how amp-hungry the servo motors are and because of how amps and volts work in parallel (volts are constant, amps stack) the battery may not last long on a single charge. 
