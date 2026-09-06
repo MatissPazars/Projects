@@ -1,3 +1,8 @@
+The following code uses the TEA5767 and an Esp32 as an radio. it does not include volume or frequency control (i.e. - its a pure *static* radio), frequency can only be changed by manually rewriting the code OR by modifying the code to support input. the radio module has the following pins: 5V (connected to 3.3V), SDA (connected to Pin 21), SLC (Connected to pin 22) and GND.  
+
+
+
+
 #include <Wire.h>
 
 #define TEA5767_I2C_ADDRESS 0x60
