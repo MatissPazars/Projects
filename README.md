@@ -20,9 +20,9 @@ interestingly the sheep simulator displays 3 emergent behavior-like patterns ins
 4. Due to grass having distinct phases of growth and spreading, grass seems to form visible [Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) patterns. because of the definition of an Voronoi Diagram, interestingly it isn't just a Voronoi-like but instead a pure Voronoi diagram.
 
 To better understand the logic of the work, it is advisable to atleast get general understanding of the following terms:
-for the movement and distance: [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance), [Taxi cab / Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry), 
-for the overall visual behavior: [BZ reacton](https://en.wikipedia.org/wiki/Belousov%E2%80%93Zhabotinsky_reaction), [Population Cycle](https://en.wikipedia.org/wiki/Population_cycle),
-for overall terms: [Population and food](https://en.wikipedia.org/wiki/Daniel_Quinn#Population_and_food), [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
+* for the movement and distance: [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance), [Taxi cab / Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry), 
+* for the overall visual behavior: [BZ reacton](https://en.wikipedia.org/wiki/Belousov%E2%80%93Zhabotinsky_reaction), [Population Cycle](https://en.wikipedia.org/wiki/Population_cycle),
+* for overall terms: [Population and food](https://en.wikipedia.org/wiki/Daniel_Quinn#Population_and_food), [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
 
 # Robotic Arm with ESP32
 ## Project #1 in align with my Degree. 
