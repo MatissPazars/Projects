@@ -1,12 +1,12 @@
-<details>
-  <summary>Sheep Simulator</summary>
+
+
 # Sheep Simulator. 
 ## The original Idea: Simulate Evolution.
 The idea was that evolution fundementally requires just 4 things: variation between siblings (mutation), inheritance, conflict over shared / limited resources, time. the moment all 4 are true, evolution is not just *possible*, its MANDATORY. 
 Thus, evolution is an emergent thing, not an thing of itself. 
 
-> [!IMPORTANT]
-> The full project was made in Godot. The code was written in Godot's own GDScript. This is NOT a tutorial for either. 
+>[!IMPORTANT]
+>The full project was made in Godot. The code was written in Godot's own GDScript. This is NOT a tutorial for either. 
 
 ### For the full code and logic of how the simulation works, please visit the S-3 folder above. 
 > [!NOTE]
@@ -26,9 +26,9 @@ To better understand the logic of the work, it is advisable to atleast get gener
 * for the movement and distance: [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance), [Taxi cab / Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry), [Euclidian Distance](https://en.wikipedia.org/wiki/Euclidean_distance),
 * for the overall visual behavior: [BZ reacton](https://en.wikipedia.org/wiki/Belousov%E2%80%93Zhabotinsky_reaction), [Population Cycle](https://en.wikipedia.org/wiki/Population_cycle),
 * for overall terms: [Population and food](https://en.wikipedia.org/wiki/Daniel_Quinn#Population_and_food), [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
-</details>
-<details>
-  <summary>Robotic Arm V1.0</summary>
+
+
+
 # Robotic Arm with ESP32
 ## Project #1 in align with my Degree. 
 https://github.com/user-attachments/assets/b2382e8d-3869-43c8-855c-f7627d7d7274
@@ -53,14 +53,16 @@ Slicing Software used: Elegoo Slicer.
 
 > [!CAUTION]
 > if you intend to copy, the LM2596 needs its voltage to be adjusted, please use an multi-meter to correctly ensure the LM2598 is outputting the correct voltage for the servo (I aimed for roughly 5.5V per module). un-adjusted, the module can potentially damage other components by providing too high voltage. Turn counter-clockwise to reduce voltage (dial the screw on top of the blue rectangle with a screwdriver) and clockwise to increase. measure voltage of-course with a multi-meter. Because of how amp-hungry the servo motors are and because of how amps and volts work in parallel (volts are constant, amps stack) the battery may not last long on a single charge.
-</details>
-<details>
-   <summary>Building a Theoretical Computer (TC) V1.0</summary>
-***Building an TC (Theoretical Computer)
+
+
+## Building an TC (Theoretical Computer), Project #2 in align with my Degree. 
 > [!NOTE]
->  In this project, the term *theoretical computer* relates to simply that this computer is obviously orders of magnitude less powerful than any modern computer. it isnt actually *theoretical* in a sense of only working on a paper, because in fact the goal is simply to make an computer to which, scale is the only obstacle. 
+>  In this project, the term *theoretical computer* relates to simply that this computer is obviously orders of magnitude less powerful than any modern computer. it isnt actually *theoretical* in a sense of only working on a paper, because in fact the goal is simply to make an computer to which, scale is the only obstacle.
+
+An computer runs on logic gates, them themselves being managed by just a single component - an transistor.
+>[!NOTE]
+Interestingly, it is possible to make a full Turing-complete computer with just five basic component types: transistors, resistors, wires, switches (or any input source), and LEDs (or any output method).
 
 
 
 
-</details>
