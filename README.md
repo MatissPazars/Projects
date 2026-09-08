@@ -10,7 +10,7 @@ Thus, evolution is an emergent thing, not an thing of itself.
 > The full project was made in Godot. The code was written in Godot's own GDScript. This is NOT a tutorial for either. 
 
 ### For the full code and logic of how the simulation works, please visit the S-3 folder above. 
-> [!IMPORTANT]
+> [!NOTE]
 > The Code was re-written by Google Antigravity for clarity, performance, as well as to significantly speed up development.  Gemini did NOT come up with the idea or concept. I am fully able to maintain the code without AI. 
 Evolution was never in entirety introduced into the project (you are free to do it yourself if you wish to finish it), but the simple reason being that the simulation already reached its goal. The idea was to reach emergent behavior, but I over-estimated how simple the rules need to be for emergent behavior (ironic given I had already been very much aware of Conway's game of life) and thus the mutation part was never implemented for the specific reason that the simulation was already interesting even without it. 
 
