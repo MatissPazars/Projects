@@ -1,5 +1,3 @@
-
-
 <details>
   <summary>Sheep Simulator</summary>
 # Sheep Simulator. 
@@ -55,7 +53,7 @@ Slicing Software used: Elegoo Slicer.
 
 > [!CAUTION]
 > if you intend to copy, the LM2596 needs its voltage to be adjusted, please use an multi-meter to correctly ensure the LM2598 is outputting the correct voltage for the servo (I aimed for roughly 5.5V per module). un-adjusted, the module can potentially damage other components by providing too high voltage. Turn counter-clockwise to reduce voltage (dial the screw on top of the blue rectangle with a screwdriver) and clockwise to increase. measure voltage of-course with a multi-meter. Because of how amp-hungry the servo motors are and because of how amps and volts work in parallel (volts are constant, amps stack) the battery may not last long on a single charge.
-<\details>
+</details>
 <details>
    <summary>Building a Theoretical Computer (TC) V1.0</summary>
 ***Building an TC (Theoretical Computer)
@@ -65,4 +63,4 @@ Slicing Software used: Elegoo Slicer.
 
 
 
-<\details>
+</details>
