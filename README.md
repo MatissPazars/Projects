@@ -62,7 +62,7 @@ Slicing Software used: Elegoo Slicer.
 An computer runs on logic gates, them themselves being managed by just a single component - an transistor.
 >[!NOTE]
 Interestingly, it is possible to make a full Turing-complete computer with just five basic component types: transistors, resistors, wires, switches (or any input source), and LEDs (or any output method).
-
+ 
 
 
 
