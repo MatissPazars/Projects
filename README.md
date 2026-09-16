@@ -63,6 +63,6 @@ An computer runs on logic gates, them themselves being managed by just a single 
 >[!NOTE]
 Interestingly, it is possible to make a full Turing-complete computer with just five basic component types: transistors, resistors, wires, switches (or any input source), and LEDs (or any output method).
  
-
+More to come, im curently waiting for ICs and components to be shipped. As well as because I have limited space on my desk, so I am currently juggling multiple projects at the same time. 
 
 
